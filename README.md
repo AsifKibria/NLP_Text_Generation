@@ -1,7 +1,7 @@
 # NLP_Text_Generation
 
 This project generates lyrics/songs from this [dataset](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres). I've processed the data and trimmed it to ~5000 songs. The library ([torch-rnn](https://github.com/jcjohnson/torch-rnn)) trains character level language models based on multu-layer LSTMs. This is based on torch7.
-This has been done for the Coursework of Natural Language Processing taken by [Univ.-Prof. Dr. Arthur M. Jacobs](https://www.ewi-psy.fu-berlin.de/einrichtungen/arbeitsbereiche/allgpsy/mitarbeiter_innen/ajacobs/index.html).
+This has been done for the Coursework of Natural Language Processing taken by [Univ.-Prof. Dr. Arthur M. Jacobs](https://www.ewi-psy.fu-berlin.de/einrichtungen/arbeitsbereiche/allgpsy/mitarbeiter_innen/ajacobs/index.html) at Freie University Berlin.
 
 --------------
 
