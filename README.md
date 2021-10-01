@@ -87,3 +87,17 @@ Running you roll and got no sickly.
 I'm not control. Ooh own pessivis start. 
 Sew sailtured holy fate. Take it to me to the truth that I just pull the stars.
 ```
+#4 (Seed: Love)
+```
+Love Spy glocks of a front of air wheel. Caught up watch for getting. 
+It's coming. I'd let me follow me home. How do I carry around. 
+and your crying sense of here, baby. And I won't be all this day. 
+What takes you running. Goes a done darlin'. 
+we're the path Children balling. 
+Surroigined, I'm like one outside.
+And you're not another biet. Don't need a mether greez. 
+We, we'll hold off my reason and stance. 
+Yes down I'll tried for sorry. Sinch of a hopical lives.
+You and those are ronnisite step.
+You all shot like deach you understand. How more never a little.
+```
