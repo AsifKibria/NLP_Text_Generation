@@ -32,8 +32,58 @@ You can also check all the available flags for the preprocessing [here](https://
 
 * Sampling/Generating
 ```
-th sample.lua -checkpoint cv/checkpoint_83000.t7 -start_text "Do i dare disturd the universe" -length 600
+th sample.lua -checkpoint cv/checkpoint_83000.t7 -start_text "Do i dare disturd the universe" -length 600 -gpu -1
 ```
 This will generate 600 characters long new text with the seed mentioned at start_text. You can also check all the available flags for the sample [here](https://github.com/jcjohnson/torch-rnn/blob/master/doc/flags.md#training).
 
 --------------
+# Sample Lyrics (Not Edited)
+#1 (Seed: Do I dare disturb the universe)
+```
+Do i dare disturd the universe wide eyes. 
+Break at you when everything. 
+Heart this day, yeah yeah, new mountate that wings. 
+And I ain't so replaced of lime. 
+Sinces was a gross "Repeat is Jenge??. 
+Caubles it's the clear, show felt, tied and wake  crumper.
+Elevil ale so cold home. Where did me since ever and you all find. 
+Maiden arms or running. Their eyes ¬¥sorta may crazy dies. 
+These cold mirror shit looks ya. 
+No red and you'll. 
+From real. on the closed with your dead. 
+I got song. 
+This is off a perfect.
+Oh sky alone to spoke, But now it's only.
+Behat I'm just one. 
+When hook out of more half day. 
+You're stare to prensemmer. 
+Forgotten is precity. 
+I'm pleasure land woman like a dop. Baby that‚Äôs not resperits
+```
+#2 (Seed: Do I dare disturb the universe)
+```
+Do i dare disturd the universe, not think of the pain again. 
+To nothing to find out! hen - barely. What she made me days gonne On. 
+You're not over and, your side.
+We'll know what your heart. 
+But I want to throw our bed. 
+Just a small. Avoids is down it.
+Do me a punk havin' me watch. 
+Slildromite gays. There's a party man chack you tonight. 
+Buying race of La, The Wackest,. 
+And I useigin I'm tired. to say the best alone. And hard to take your faster, he floor,.
+I find you go up town. Too much longer girl. Let go down the world.  Don't listen.
+```
+#3 (Seed: Love)
+```
+Love to be alone, I'm head you so feeling cared attage. 
+Over me of all your tomorrow on. You've been again acroll last side. 
+Lost elections come true goes. To be broken nightmare. 
+Oh my hard. Promise you needle emang dream. we ain't getting learning at the heart. 
+I'll find yourself until that you waste. 
+Get out there's a mikuntary. Before it mercy. 
+I'm not the jack. My letter, beauty was between knew.
+Running you roll and got no sickly. 
+I'm not control. Ooh own pessivis start. 
+Sew sailtured holy fate. Take it to me to the truth that I just pull the stars.
+```
