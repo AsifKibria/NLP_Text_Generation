@@ -1,7 +1,7 @@
 # NLP_Text_Generation
 
 This project generates lyrics/songs from this [dataset](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres). I've processed the data and trimmed it to ~5000 songs. Detailed processing and trimming process can be found in this [notebook](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/Data_Preprocessing.ipynb). This .pdf version of the notebook is [here](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/Data_Preprocessing.pdf). I've used pandas, numpy and Seaborn to cleaning the data. 
-The library ([torch-rnn](https://github.com/jcjohnson/torch-rnn)) trains character level language models based on multu-layer LSTMs. This is based on torch7. Detailed of the technology and process can be found in the [Project Report](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/NLP_Text_Generation_Project_Report_Draft.pdf). 
+The library ([torch-rnn](https://github.com/jcjohnson/torch-rnn)) trains character level language models based on multu-layer LSTMs. This is based on torch7. Detailed of the technology and process can be found in the [Project Report](https://github.com/AsifKibria/NLP_Text_Generation/raw/main/NLP_Text_Generation_Project_Report_Final.pdf). 
 
 ------------
 
