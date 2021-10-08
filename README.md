@@ -17,7 +17,7 @@ This has been done for the Coursework of Natural Language Processing taken by [U
 docker run --rm -ti crisbal/torch-rnn:base bash 
 ```
 
-* Download the dataset into the docer container
+* Download the dataset into the docker container
 ```
 curl https://raw.githubusercontent.com/AsifKibria/NLP_Text_Generation/main/Data/input.txt -o data/lyrics.txt 
 ```
