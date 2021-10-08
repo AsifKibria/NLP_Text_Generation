@@ -1,19 +1,23 @@
 # NLP_Text_Generation
 
-This project generates lyrics/songs from this [dataset](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres). I've processed the data and trimmed it to ~5000 songs. The library ([torch-rnn](https://github.com/jcjohnson/torch-rnn)) trains character level language models based on multu-layer LSTMs. This is based on torch7.
+This project generates lyrics/songs from this [dataset](https://www.kaggle.com/neisse/scrapped-lyrics-from-6-genres). I've processed the data and trimmed it to ~5000 songs. Detailed processing and trimming process can be found in this [notebook](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/Data_Preprocessing.ipynb). This .pdf version of the notebook is [here](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/Data_Preprocessing.pdf). I've used pandas, numpy and Seaborn to cleaning the data. 
+The library ([torch-rnn](https://github.com/jcjohnson/torch-rnn)) trains character level language models based on multu-layer LSTMs. This is based on torch7. Detailed of the technology and process can be found in the [Project Report](https://github.com/AsifKibria/NLP_Text_Generation/blob/main/NLP_Text_Generation_Project_Report_Draft.pdf). 
+
+------------
+
 This has been done for the Coursework of Natural Language Processing taken by [Univ.-Prof. Dr. Arthur M. Jacobs](https://www.ewi-psy.fu-berlin.de/einrichtungen/arbeitsbereiche/allgpsy/mitarbeiter_innen/ajacobs/index.html) at Freie University Berlin.
 
 --------------
 
 # Steps to Generate the Songs
-* After trying to install torch7 on Mac (M1) and Ubuntu (20.04), I've realised torch7 is not fully compatible with these yet. You can run the docker image to ease all the pain (Don't run in M1). Download the [Docker](https://www.docker.com/get-started) if not installed yet.
+* After trying to install torch7 on Mac (M1) and Ubuntu (20.04), I've realised torch7 is not fully compatible with these yet. You can run the docker image to ease all the pain (Don't run in M1). Download the [Docker](https://www.docker.com/get-started) if it is not in your machine.
 
 * Connect to the docer bash in the container
 ```
 docker run --rm -ti crisbal/torch-rnn:base bash 
 ```
 
-* Download the dataset into the docer container
+* Download the dataset into the docker container
 ```
 curl https://raw.githubusercontent.com/AsifKibria/NLP_Text_Generation/main/Data/input.txt -o data/lyrics.txt 
 ```
