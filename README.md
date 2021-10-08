@@ -20,13 +20,13 @@ curl https://raw.githubusercontent.com/AsifKibria/NLP_Text_Generation/main/Data/
 
 * Preprocess the lyrics
 ```
-python scripts/preprocess.py --input_txt data/lyrics.txt --output_h5 data/lyrics.h5 --output_json ${PREFIX}.json
+python scripts/preprocess.py --input_txt data/lyrics.txt --output_h5 data/lyrics.h5 --output_json data/lyrics.json
 ```
 This will create two output files in the `data` directory. You can also check all the available flags for the preprocessing [here](https://github.com/jcjohnson/torch-rnn/blob/master/doc/flags.md#training).
 
 * Train the Model
 ```
-th train.lua -input_h5 data/lyrics.h5  -input_json -input_json data/lyrics.json -gpu -1
+th train.lua -input_h5 data/lyrics.h5  -input_json data/lyrics.json -gpu -1
 ```
 You can also check all the available flags for the preprocessing [here](https://github.com/jcjohnson/torch-rnn/blob/master/doc/flags.md#training). Grab a coffe or have your dinner, This will take a very long time. 
 
